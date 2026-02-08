@@ -12,14 +12,7 @@
   border-radius: 0 !important;
 }
 
-/* ===== 전역 폰트 설정 ===== */
-
-/* 모든 요소 기본 폰트 */
-* {
-  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
-}
-
-/* 기본 body */
+/* 기본 폰트 및 배경 */
 body {
   font-family: 'Noto Sans', 'Noto Sans KR', -apple-system, sans-serif !important;
   background-color: #ffffff !important;
@@ -27,49 +20,27 @@ body {
   font-weight: 400;
 }
 
-/* 모든 제목 */
+/* 제목 폰트 */
 h1, h2, h3, h4, h5, h6,
 .page__title,
 .archive__item-title,
-.site-title,
-.page__related h4 {
+.site-title {
   font-family: 'Noto Serif KR', serif !important;
   color: #1a1a1a !important;
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 /* 본문 */
 .page__content,
 .archive__item-excerpt,
-.archive__item-teaser,
-p, li, span, div {
+p, li {
   font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+  color: #333 !important;
 }
 
-/* 최근 포스트 제목 */
-.archive__item-title a {
-  font-family: 'Noto Serif KR', serif !important;
-  color: #1a1a1a !important;
-}
-
-/* 날짜/메타 */
-.archive__item-date,
-.page__meta,
-.page__date,
-.page__taxonomy {
-  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
-  color: #999 !important;
-  font-size: 14px;
-}
-
-/* ===== 배경과 색상 ===== */
-
+/* 배경과 레이아웃 */
 .page {
   background-color: #ffffff !important;
-}
-
-.page__content {
-  color: #333 !important;
 }
 
 /* 링크 */
@@ -97,13 +68,53 @@ a:hover {
   color: #0066cc !important;
 }
 
+/* ===== 최근 포스트 & 글 목록 폰트 ===== */
+
+/* 최근 포스트 제목 */
+.archive__item-title,
+.archive__item-title a {
+  font-family: 'Noto Serif KR', serif !important;
+  color: #1a1a1a !important;
+  font-weight: 400 !important;
+}
+
+/* 최근 포스트 본문/설명 */
+.archive__item-excerpt,
+.archive__item-teaser {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+  color: #666 !important;
+}
+
+/* 날짜/메타 정보 */
+.archive__item-date,
+.page__meta,
+.page__taxonomy {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+  color: #999 !important;
+}
+
+/* 카테고리/태그 */
+.page__taxonomy-item {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+}
+
+/* 리스트 전체 */
+.list__item,
+.archive__item {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+}
+
 /* 사이드바 */
 .sidebar,
 .sidebar__right {
   font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
 }
 
-/* 관련 글 */
+/* 관련 글 섹션 */
 .page__related {
   font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+}
+
+.page__related h4 {
+  font-family: 'Noto Serif KR', serif !important;
 }
