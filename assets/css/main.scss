@@ -115,3 +115,14 @@ a:hover {
 .author__avatar img {
   border-radius: 0 !important;
 }
+
+/* 한글 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&family=Noto+Sans+KR:wght@300;400&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1, h2, h3, .page__title, .archive__item-title {
+  font-family: 'Noto Serif KR', serif;
+}
