@@ -325,3 +325,7 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Admin 폴더 포함
+include:
+  - admin
