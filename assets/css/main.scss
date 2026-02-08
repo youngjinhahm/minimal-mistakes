@@ -12,7 +12,14 @@
   border-radius: 0 !important;
 }
 
-/* 기본 폰트 및 배경 */
+/* ===== 전역 폰트 설정 ===== */
+
+/* 모든 요소 기본 폰트 */
+* {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+}
+
+/* 기본 body */
 body {
   font-family: 'Noto Sans', 'Noto Sans KR', -apple-system, sans-serif !important;
   background-color: #ffffff !important;
@@ -20,27 +27,49 @@ body {
   font-weight: 400;
 }
 
-/* 제목 폰트 */
+/* 모든 제목 */
 h1, h2, h3, h4, h5, h6,
 .page__title,
 .archive__item-title,
-.site-title {
+.site-title,
+.page__related h4 {
   font-family: 'Noto Serif KR', serif !important;
   color: #1a1a1a !important;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 /* 본문 */
 .page__content,
 .archive__item-excerpt,
-p, li {
+.archive__item-teaser,
+p, li, span, div {
   font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
-  color: #333 !important;
 }
 
-/* 배경과 레이아웃 */
+/* 최근 포스트 제목 */
+.archive__item-title a {
+  font-family: 'Noto Serif KR', serif !important;
+  color: #1a1a1a !important;
+}
+
+/* 날짜/메타 */
+.archive__item-date,
+.page__meta,
+.page__date,
+.page__taxonomy {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+  color: #999 !important;
+  font-size: 14px;
+}
+
+/* ===== 배경과 색상 ===== */
+
 .page {
   background-color: #ffffff !important;
+}
+
+.page__content {
+  color: #333 !important;
 }
 
 /* 링크 */
@@ -66,4 +95,15 @@ a:hover {
 
 .greedy-nav a:hover {
   color: #0066cc !important;
+}
+
+/* 사이드바 */
+.sidebar,
+.sidebar__right {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+}
+
+/* 관련 글 */
+.page__related {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
 }
