@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 400;
 }
 
+h3, .archive__subtitle {
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
 /* 본문 */
 .page__content,
 .archive__item-excerpt,
