@@ -117,7 +117,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "그때 그때, 이것 저것 "
   location         : "Seoul, Korea"
-  email            : "youngjinhahm@gmail.com
+  email            : "youngjinhahm@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
